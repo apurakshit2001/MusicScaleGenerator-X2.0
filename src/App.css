@@ -1,0 +1,9 @@
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(135deg, #141414 0%, #306770 50%, #010624 100%);
+  background-repeat: no-repeat;
+}
+*{
+  scroll-behavior: smooth;
+}
