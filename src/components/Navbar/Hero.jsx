@@ -25,6 +25,9 @@ const Hero = () => {
                                 <Link className="nav-link" to="/docs">Docs</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/TextForm">TextForm</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/Contact">Contact</Link>
                             </li>
                         </ul>
