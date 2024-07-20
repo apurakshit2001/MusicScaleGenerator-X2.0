@@ -55,7 +55,7 @@ const Transpose = () => {
 
     return (
         <div className="container">
-            <h1 className="white">
+            <h1 className="white both-side-border-white-3d">
                 Welcome to the Chord Transposition Tool! This page allows you to effortlessly transpose your chord
                 progressions to different keys with just a few clicks.
             </h1>
@@ -66,7 +66,7 @@ const Transpose = () => {
                     <br /> Start by entering your chord progression into the input field. For example, type 'C, Am, F, G'.
                 </li>
                 <li>
-                    <strong className='black'>Transpose ➡ or ⬅ :</strong>
+                    <strong className='black'>Transpose Forward or Backward :</strong>
                     <br />Use the plus (+) symbol to transpose the chords forward or the minus (-)
                     symbol to transpose them backward. For instance, clicking the plus symbol twice after entering 'C, Am, F, G' will change it to 'D, Bm, G, A'. Clicking the minus symbol once will change it to 'C#, A#m, F#, G#'.
                 </li>
@@ -79,7 +79,7 @@ const Transpose = () => {
             <div className='transposeContainer'>
                 <textarea
                     id="inputChords"
-                    placeholder="Enter your chord progression here"
+                    placeholder="Enter your chord progression here, Enter the root note in CAPITAL.."
                     value={inputChords}
                     onChange={(e) => setInputChords(e.target.value)}
                 ></textarea>

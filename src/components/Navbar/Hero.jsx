@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Hero = () => {
     return (
-        <div>
+        <div className='nav'>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
@@ -25,7 +25,7 @@ const Hero = () => {
                                 <Link className="nav-link" to="/docs">Docs</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="https://apurakshit2001.github.io/profile-front/">Contact</Link>
+                                <Link className="nav-link" to="/Contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

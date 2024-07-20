@@ -8,10 +8,11 @@
     padding: 0;
 }
 
-.container{
-    /* width: 100%;
-    display: block;
-    margin: 0 10%; */
+.both-side-border-white-3d{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
 }
 textarea {
     width: 100%;

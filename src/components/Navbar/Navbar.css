@@ -43,13 +43,16 @@
         gap: 3px;
         margin-top: 10px;
     }
-
+.navbar-brand{
+    margin-top: 10px;
+    margin-right: 0;
+}
     #navbarSupportedContent {
         margin-left: 0;
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 19px;
     }
 
     .navbar-toggler {
@@ -66,5 +69,12 @@
         padding: 0 15PX;
         border-radius: 15px;
         transition: all 0.2s ease-in-out;
+    }
+    .nav{
+        padding-right: 0;
+        padding-left: 0;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
     }
 }

@@ -9,7 +9,7 @@ const Docs = () => {
                 <p className="black-text">Welcome to the Musique Scale Generator! This tool allows you to generate various musical scales and chords based on a selected note. Here, you'll find documentation on how to use the tool and understand its features.</p>
 
                 <h2 className="notes-heading">Notes and Scales</h2>
-                <p className="notes-text">The musical notes available for selection are:</p>
+                <p className="notes-text underline-000">The musical notes available for selection are:</p>
                 <ul className="notes-list square-list">
                     <li>C</li>
                     <li>C# / D♭</li>
@@ -24,7 +24,7 @@ const Docs = () => {
                     <li>A# / B♭</li>
                     <li>B</li>
                 </ul>
-                <p className="notes-text">You can choose any of these notes and generate different scales or chords based on the selected note.</p>
+                <p className="notes-text underline-000">You can choose any of these notes and generate different scales or chords based on the selected note.</p>
 
                 <h2 className="how-to-heading black-text">How to Use</h2>
                 <p className="how-to-text">Follow these steps to use the Musique Scale Generator:</p>
